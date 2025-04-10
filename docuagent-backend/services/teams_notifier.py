@@ -5,7 +5,6 @@ from utils.load_env import load_env
 
 load_env()
 
-
 def send_teams_notification(title: str, summary: str, metadata: dict, risks: str, blob_url: str):
     webhook_url = os.getenv("TEAMS_WEBHOOK_URL")
     if not webhook_url:
