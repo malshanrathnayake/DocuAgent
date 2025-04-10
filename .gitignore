@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.* 
+docuagent-backend/.env
+
+# Logs and debug
+*.log
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# Python tooling
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Docker cache
+*.tar
+*.img
+docker-compose.override.yml
+
+# Project-specific
+docuagent-backend/__pycache__/
+docuagent-backend/agents/__pycache__/
+docuagent-backend/services/__pycache__/
+docuagent-backend/utils/__pycache__/
+docuagent-backend/data/sample_docs/*.pdf

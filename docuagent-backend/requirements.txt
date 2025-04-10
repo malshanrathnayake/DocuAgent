@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+autogen
+azure-storage-blob
+azure-cosmos
+PyMuPDF
+python-multipart
+python-dotenv
+pyautogen
+python-docx
