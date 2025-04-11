@@ -47,3 +47,15 @@ docuagent-backend/agents/__pycache__/
 docuagent-backend/services/__pycache__/
 docuagent-backend/utils/__pycache__/
 docuagent-backend/data/sample_docs/*.pdf
+
+# Node.js (for docuagent-client)
+docuagent-client/node_modules/
+docuagent-client/.next/
+docuagent-client/out/
+
+# Environment variables (for docuagent-client)
+docuagent-client/.env
+docuagent-client/.env.local
+docuagent-client/.env.development.local
+docuagent-client/.env.test.local
+docuagent-client/.env.production.local
