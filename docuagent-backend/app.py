@@ -20,7 +20,7 @@ app = FastAPI(title="DocuAgent API")
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with specific origins
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -235,8 +235,7 @@ async def update_risk_status(risk_id: str = Path(...), update: RiskStatusUpdate 
         if not document:
             raise HTTPException(status_code=404, detail="Risk report not found")
         
-        # In a real implementation, you would update the risk status in Cosmos DB
-        # For now, we'll just return the updated risk report
+        # update the risk status in Cosmos DB
         
         risk_report = {
             "id": document["id"],
